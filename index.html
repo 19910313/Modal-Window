@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Modal Window: pseudo + position</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HW1 -  main  -  why?
+    Deoarece marcheaza continutul principal al documentului si care nu trebuie sa se mai repete! -->
+    <main id="content">
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      <h2>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, quis.
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+        officia eligendi quibusdam? Temporibus vitae ea fuga, dolore aspernatur
+        fugit, modi, illum ducimus a iure quisquam sapiente itaque molestiae
+        corrupti. Numquam aliquid, fugit ullam repellat porro dolorum tenetur
+        maiores iste eius ad sit rerum deleniti animi non quidem facilis eum
+        error.
+      </p>
+      <p>
+        Odio, dolor numquam nemo, quo rem commodi ut adipisci unde possimus quas
+        pariatur itaque facilis autem alias! Aliquid tenetur est, corrupti
+        tempore ratione numquam reprehenderit cupiditate ipsa et qui voluptate
+        rerum error commodi quia libero quibusdam? Esse quis accusamus
+        doloremque voluptas, rerum officia nesciunt, error suscipit autem, qui
+        aliquid libero!
+      </p>
+      <p>
+        Sit aliquid, sunt, facere voluptatem voluptatibus at beatae ab iure eum
+        delectus suscipit quo assumenda aut possimus reprehenderit rerum! Ea
+        quos vel, reiciendis sapiente aspernatur quam et eum assumenda obcaecati
+        in repudiandae. Magni numquam doloribus libero, accusantium ratione
+        explicabo rem saepe aliquam nobis eos expedita tempore aliquid
+        aspernatur! Illum, obcaecati.
+      </p>
+      <p class="ad">
+        To benefit from it HIT
+        <a href="#modal"><span class="first_butt">THIS BUTTON</span></a>
+      </p>
+    </main>
+    <div id="modal">
+      <h1>Apply for this product!</h1>
+      <h2>In order to apply fill in the blank</h2>
+      <form>
+        <label>
+          <input
+            class="efects"
+            required
+            type="text"
+            placeholder=" e.g. Jhon Doe"
+          /><br />
+        </label>
+        <label class="code">
+          <select name="phone number" id="country_code" required>
+            <option value="">---</option>
+            <option value="+373">+373</option>
+            <option value="+40">+40</option>
+            <option value="+44">+44</option>
+          </select>
+          <input
+            class="efects"
+            required
+            type="text"
+            placeholder="phone: +12345678"
+          /><br />
+        </label>
+        <label>
+          <input
+            class="efects"
+            required
+            type="text"
+            placeholder="email: johndoe@..."
+          /><br />
+        </label>
+        <button class="efects2">Apply!!!</button>
+      </form>
+      <a href="#"><span>X</span></a>
+    </div>
+    <div class="overlay"></div>
+  </body>
+</html>
+<!-- HW2 - Nu ar fi corect de mai adaugat inca un H1 deoarece ar denatura esenta celui existent -->
